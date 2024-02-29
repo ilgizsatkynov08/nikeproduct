@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.container_list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}

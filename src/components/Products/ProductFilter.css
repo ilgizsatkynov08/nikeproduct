@@ -1,0 +1,8 @@
+#side_bar {
+  width: 210px;
+  padding: 20px 20px 30px 55px;
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: 100vh;
+}

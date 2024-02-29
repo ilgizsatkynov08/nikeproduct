@@ -1,0 +1,73 @@
+#up_navbar {
+	padding: 5px 0;
+	background: #f5f5f5;
+}
+
+.up_navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.up_navbar_nav {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.up_navbar_nav a {
+	color: #111;
+	font-size: 11.813px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+/* ? NAVBAR TEST */
+#test_navbar {
+	background: #fff;
+}
+.test_navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.test_navbar img {
+	width: 7%;
+	height: 60px;
+}
+
+.test_navbar_nav {
+	display: flex;
+	align-items: center;
+	gap: 255px;
+}
+.test_nav_link {
+	display: flex;
+	align-items: center;
+	gap: 17px;
+}
+
+.test_nav_link a {
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.test_navbar_icons {
+	display: flex;
+	gap: 15px;
+}
+
+.navbarTest_input {
+	outline: none;
+	padding-left: 1pc;
+	border-radius: 11px;
+	border: 1px solid #cacaca;
+	color: #6bb2ff;
+}
+
+.navbarTest_input:hover {
+	border: 1.7px solid #007bff;
+}
+.navbarTest_input::placeholder {
+	color: #007bff;
+}

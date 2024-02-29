@@ -1,0 +1,87 @@
+#footer {
+	margin: 50px 0 0 0;
+	padding: 50px 0;
+	background-color: #181818;
+}
+
+.content {
+	color: #fff;
+	font-size: 10.063px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.footer {
+	display: flex;
+
+	justify-content: space-between;
+}
+.footer_nav {
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_icons {
+	display: flex;
+	gap: 15px;
+}
+
+.corents {
+	padding: 30px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.twittier:hover {
+	background: #0048a6;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.icon {
+		color: white;
+	}
+}
+
+.icon {
+	padding: 2px;
+	background: "#7E7E7E";
+	width: "30px";
+	height: "30px";
+}
+
+.footer_icons {
+	display: flex;
+	align-items: start;
+}
+
+.toutobe:hover {
+	background: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.icon {
+		color: white;
+	}
+}
+
+.iconButton {
+}
+
+.whatsApp:hover {
+	background: greenyellow;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.icon {
+		color: white;
+	}
+}
